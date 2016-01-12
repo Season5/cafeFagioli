@@ -69,3 +69,83 @@ table {
 
 /* Start of stylesheet */
 
+
+
+body{
+  font-family: 'Exo', sans-serif;
+}
+h1{
+  border-bottom:solid 1px #ccc;
+  display:block;
+  text-align:center;
+  margin:0 0 0.5em 0;
+  padding:0 0 0.5em 0;
+}
+.s3-transition{
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.s3-filter{
+  filter:blur(10px);
+  /* Browser Support
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  */
+}
+.s3-box{
+  background-color:#fff;
+  margin:2.5%;
+  padding:2%;
+  border:solid 1px #ccc;
+  width:40%;
+  float:left;
+  h2{
+    color:white;
+    border-bottom:solid 1px #cdcdcd;
+    margin:0.5em;
+    padding:0.5em;
+    background:black;
+    
+    position:relative;
+    span{
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      font-size:80%;
+      padding:0.8em;
+      background:red;
+    }
+  }
+}
+.s3-image{
+  background-image:url('https://0.gravatar.com/avatar/1a623ebd583c40ea126be92780f32d1a?d=https%3A%2F%2Fidenticons.github.com%2F99347340f3c8d9fb7a99496b1d0eddd7.png&s=140');
+  background-repeat:no-repeat;
+  height:140px;
+  width:140px;
+  margin:auto;
+}
+.s3-blur{
+  .s3-image;
+  .s3-transition;
+  &:hover{
+    //Glass Effect with CSS Filter
+    .s3-filter;
+  }
+}
+.s3-opacity{
+  .s3-image;
+  .s3-transition;
+  &:hover{
+    zoom:1;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    //.s3-filter;
+  }
+}
+
