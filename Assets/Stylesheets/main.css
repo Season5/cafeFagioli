@@ -81,7 +81,7 @@ h1{
 /* Header */
 
 #logo{
-
+    font-family: 'Questrial', sans-serif;
     }
 
 
@@ -102,40 +102,46 @@ h1{
 }
 .burger img{
     height: 45px;
+    width: 45px;
 }
 .list{
     width: 100%;
 }
 .menu{
-    
+    background-image: url(../Pictures/wood_texture3793.jpg);
     position: absolute;
     list-style: none;
     text-align: center;
-    width: 80%;
+    width: auto;
+    height: 50px;
     margin: 1%;
     top: 0;
+    left: 55px;
+    right: auto;
     font:;
-    max-height: 0px;
+    width: 0px;
     overflow: hidden;
     
-    -webkit-transition:max-height 0.4s linear;
-	-moz-transition:max-height 0.4s linear;
-	transition:max-height 0.4s linear;
+    -webkit-transition:width 0.4s linear;
+	-moz-transition:width 0.4s linear;
+	transition:width 0.4s linear;
 }
 .menu li{
     display: inline-block;
+    
 }
 .burger:hover ul{
-    max-height: 200px;
+    width: 650px;
 }
 .item{
     
-    display: block;
-    padding: 0 2.5%;
+    padding: 15px 7%;
     text-align: center;
 }
 .item a{
     text-decoration: none;
+    display: block;
+    margin: 0;
 }
 
 /* Main */
