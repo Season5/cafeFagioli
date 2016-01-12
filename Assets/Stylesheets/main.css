@@ -93,7 +93,9 @@ p{
     font-family: 'Questrial', sans-serif;
     }
 
-
+nav{
+    height: 15%;
+}
 .burger{
     list-style: none;
     display: inline-block;
@@ -102,6 +104,7 @@ p{
     border-radius: 3px;
     position: relative;
     width: 100%;
+    height: 100%;
 }
 .burger > a{
     color: inherit;
@@ -110,8 +113,9 @@ p{
     padding: 25px;
 }
 .burger img{
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: auto;
+    margin: 0 10px;
 }
 .list{
     width: 100%;
@@ -123,9 +127,9 @@ p{
     text-align: center;
     width: auto;
     height: 50px;
-    margin: 1%;
+    margin: 0 1%;
     top: 0;
-    left: 55px;
+    left: 75px;
     right: auto;
     font-family: 'Handlee', cursive;
     width: 0px;
