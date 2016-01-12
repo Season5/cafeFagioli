@@ -89,18 +89,26 @@ p{
 
 /* Header */
 
+header{
+    background-image: url(../Pictures/1897822.jpg);
+    
+}
+header h1{
+    height: 90px;
+}
+
 #logo{
     font-family: 'Questrial', sans-serif;
     }
 
 nav{
     height: 15%;
+    background-image: url(../Pictures/wood_texture3793.jpg);
 }
 .burger{
     list-style: none;
     display: inline-block;
     line-height: 1;
-    margin: 1px;
     border-radius: 3px;
     position: relative;
     width: 100%;
@@ -121,7 +129,7 @@ nav{
     width: 100%;
 }
 .menu{
-    background-image: url(../Pictures/wood_texture3793.jpg);
+    
     position: absolute;
     list-style: none;
     text-align: center;
@@ -151,13 +159,56 @@ nav{
     padding: 15px 7%;
     text-align: center;
 }
-.item a{
+.item{
     text-decoration: none;
-    display: block;
+    display: inline-block;
     margin: 0;
+    color: beige;
+}
+.item:hover{
+    border-bottom: 5px beige solid;
+}
+.item:active{
+    color: red;
 }
 
 /* Main */
 
-/* Footer */
+.main{
+    height: 465px;
+}
+@keyframes slide1{
+    0% {background-image: url(../Pictures/coffee-08.jpg);}
+    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);}
+    50% {background-image: url(../Pictures/coffee-beans.jpg);}
+    75% {background-image: url(../Pictures/coffee-beans.jpg);}
+    100% {background-image: url(../Pictures/DSC02673.jpg);}
+    
+}
+.slide{
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    background-position: center;
+    background-size:auto;
+    animation-name: slide1;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
 
+/* Footer */
+footer{
+    bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    clear: both;
+    background-image: url(../Pictures/wood_texture3793.jpg);
+}
+footer p{
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
