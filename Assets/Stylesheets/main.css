@@ -84,6 +84,60 @@ h1{
 
     }
 
+
+.burger{
+    list-style: none;
+    display: inline-block;
+    line-height: 1;
+    margin: 1px;
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+}
+.burger > a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 25px;
+}
+.burger img{
+    height: 45px;
+}
+.list{
+    width: 100%;
+}
+.menu{
+    
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    width: 80%;
+    margin: 1%;
+    top: 0;
+    font:;
+    max-height: 0px;
+    overflow: hidden;
+    
+    -webkit-transition:max-height 0.4s linear;
+	-moz-transition:max-height 0.4s linear;
+	transition:max-height 0.4s linear;
+}
+.menu li{
+    display: inline-block;
+}
+.burger:hover ul{
+    max-height: 200px;
+}
+.item{
+    
+    display: block;
+    padding: 0 2.5%;
+    text-align: center;
+}
+.item a{
+    text-decoration: none;
+}
+
 /* Main */
 
 /* Footer */
