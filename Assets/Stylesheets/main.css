@@ -75,7 +75,16 @@ body{
     
 }
 h1{
-
+    font-family: 'Exo', sans-serif;
+}
+h2{
+    font-family: 'Rancho', cursive;
+}
+h3{
+    font-family: 'Coming Soon', cursive;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Header */
@@ -118,7 +127,7 @@ h1{
     top: 0;
     left: 55px;
     right: auto;
-    font:;
+    font-family: 'Handlee', cursive;
     width: 0px;
     overflow: hidden;
     
