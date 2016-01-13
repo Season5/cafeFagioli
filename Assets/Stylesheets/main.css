@@ -104,6 +104,16 @@ header h1{
 nav{
     height: 15%;
     background-image: url(../Pictures/wood_texture3793.jpg);
+    animation: nav;
+    animation-duration: 1s;
+}
+@keyframes nav{
+    0%{
+        left: 0;width: 70px;
+    }
+    100%{
+        left: 0;width: 100%;
+    }
 }
 .burger{
     list-style: none;
@@ -143,9 +153,9 @@ nav{
     width: 0px;
     overflow: hidden;
     
-    -webkit-transition:width 0.4s linear;
-	-moz-transition:width 0.4s linear;
-	transition:width 0.4s linear;
+    -webkit-transition:width .6s ease;
+	-moz-transition:width .6s ease;
+	transition:width .6s ease;
 }
 .menu li{
     display: inline-block;
