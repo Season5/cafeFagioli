@@ -219,6 +219,7 @@ nav{
 =======
 /* Menu page */
 >>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+
 .left{
     width: 10%;
 }
@@ -272,7 +273,6 @@ nav{
 <<<<<<< HEAD
     color: white;    
     font-size: 25px;
-=======
     color: firebrick;    
     font-size: 40px;
     padding: 5px;
@@ -299,6 +299,17 @@ nav{
 
 .right{
     width: 10%;
+}
+.return img{
+    width:5%;
+}
+#logo{
+    width: 100px;
+    height: auto;
+    margin-left: 14%;
+}
+.head{
+    display: inline-block;
 }
 /* Footer */
 footer{
