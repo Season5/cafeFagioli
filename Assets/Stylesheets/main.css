@@ -206,36 +206,6 @@ nav{
     color: red;
 }
 
-/* Main */
-
-.main{
-    height: 465px;
-}
-@keyframes slide1{
-    0% {background-image: url(../Pictures/coffee-08.jpg);}
-    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);}
-    50% {background-image: url(../Pictures/coffee-beans.jpg);}
-    75% {background-image: url(../Pictures/coffee-beans.jpg);}
-    100% {background-image: url(../Pictures/DSC02673.jpg);}
-    
-}
-.slide{
-    height: 80%;
-    width: auto;
-    margin: 0 auto;
-    background-image: url(../Pictures/a-cup-of-coffee.jpg);
-    background-position: center;
-    background-size:auto;
-    animation-name: slide1;
-    animation-duration: 10s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    -moz-animation-name: slide1;
-    -moz-animation-duration: 10s;
-    -moz-animation-delay: 2s;
-    -moz-animation-iteration-count: infinite;
-}
-<<<<<<< HEAD
 
 /*
 ================================
@@ -270,7 +240,35 @@ footer p{
 Home Page
 ==========================
 */
+/* Main */
 
+.main{
+    height: 465px;
+}
+@keyframes slide1{
+    0% {background-image: url(../Pictures/coffee-08.jpg);}
+    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);}
+    50% {background-image: url(../Pictures/coffee-beans.jpg);}
+    75% {background-image: url(../Pictures/coffee-beans.jpg);}
+    100% {background-image: url(../Pictures/DSC02673.jpg);}
+
+}
+.slide{
+    height: 80%;
+    width: auto;
+    margin: 0 auto;
+    background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    background-position: center;
+    background-size:auto;
+    animation-name: slide1;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    -moz-animation-name: slide1;
+    -moz-animation-duration: 10s;
+    -moz-animation-delay: 2s;
+    -moz-animation-iteration-count: infinite;
+}
 /*
 =============================
 Menu page
