@@ -323,10 +323,13 @@ nav{
 #logo{
     width: 100px;
     height: auto;
-    margin-left: 14%;
+    margin-left: 45%;
 }
 .head{
     display: inline-block;
+}
+#menubody{
+    background-image: url(../Pictures/1897822.jpg)
 }
 /* Footer */
 footer{
@@ -334,13 +337,17 @@ footer{
     margin-bottom: 0;
     padding-bottom: 0;
     clear: both;
-    background-image: url(../Pictures/1897822.jpg);
+    background-image: url(../Pictures/wood_texture3793.jpg);
+    height: 30px;
+
 }
 footer p{
     bottom: 0;
     margin-bottom: 0;
     padding-bottom: 0;
-    color: white;
+    color: black;
+    font-size: 25px;
+    text-align: center;
 }
 
 /*ABOUT*/
