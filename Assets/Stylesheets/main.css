@@ -197,7 +197,7 @@ nav{
 }
 .slide{
     height: 400px;
-    width: 70%;
+    width: auto;
     margin: 0 auto;
     background-image: url(../Pictures/a-cup-of-coffee.jpg);
     background-position: center;
