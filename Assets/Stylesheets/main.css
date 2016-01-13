@@ -273,6 +273,7 @@ Home Page
 .values section img{
     height: 90%;
     width: 100%;
+    border-radius: 5px;
 }
 .values{
     margin-top: 1.5%;
