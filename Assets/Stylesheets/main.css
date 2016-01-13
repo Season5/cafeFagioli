@@ -1,19 +1,11 @@
 /*
-
 THE FONT FAMILY TO BE USED
-
 font-family: 'Josefin Sans', sans-serif;
-
 font-family: 'Questrial', sans-serif;
-
 font-family: 'Exo', sans-serif;
-
 font-family: 'Handlee', cursive;
-
 font-family: 'Coming Soon', cursive;
-
 font-family: 'Rancho', cursive;
-
 */
 
 
@@ -70,7 +62,6 @@ table {
 /*
 =======================================================================
  Start of stylesheet
-
 /*
 ============================
 Styles for the whole website
@@ -205,7 +196,9 @@ nav{
 .item:active{
     color: red;
 }
+#menubody{
 
+}
 
 /*
 ================================
@@ -273,19 +266,17 @@ Home Page
 .values section{
 
     float: left;
-    width: 15%;
+    width: 20%;
     padding: 0;
     margin-left: 3.5%;
-}
-.values1{
-
 }
 .values section img{
     height: 90%;
     width: 100%;
 }
 .values{
-    margin: 0 auto;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
     height: 250px;
 }
 
