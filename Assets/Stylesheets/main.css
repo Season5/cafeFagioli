@@ -67,9 +67,24 @@ table {
 	border-spacing: 0;
 }
 
-/* Start of stylesheet */
+/*
+=======================================================================
+ Start of stylesheet
 
-/* Body */
+/*
+============================
+Styles for the whole website
+============================
+*/
+
+
+/*
+=========================
+Body
+=========================
+*/
+
+
 body{
 <<<<<<< HEAD
     background-color: beige;
@@ -221,10 +236,40 @@ nav{
     -moz-animation-iteration-count: infinite;
 }
 <<<<<<< HEAD
+
+/*
+================================
+Footer
+================================
+*/
+footer{
+    bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    clear: both;
+    background-image: url(../Pictures/1897822.jpg);
+    background-size: cover;
+}
+footer p{
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: white;
+}
+
 /* Menu */
-=======
-/* Menu page */
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+/*
+=============================
+ Styles for individual pages
+=============================
+*/
+
+/*
+=============================
+Menu page
+=============================
+*/
+
 
 .left{
     width: 10%;
@@ -334,23 +379,13 @@ nav{
 .head{
     display: inline-block;
 }
-/* Footer */
-footer{
-    bottom: 0px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    clear: both;
-    background-image: url(../Pictures/1897822.jpg);
-    background-size: cover;
-}
-footer p{
-    bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color: white;
-}
 
-/*ABOUT*/
+
+/*
+==================================
+ABOUT PAGE
+==================================
+*/
 
 
 .about {
