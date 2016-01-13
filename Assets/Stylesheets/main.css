@@ -254,12 +254,12 @@ Home Page
     height: 400px;
     width: auto;
     margin: 0 auto;
-    background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    background-image: url(../Pictures/coffee-08.jpg);
     background-position: center;
     background-size:auto;
     animation-name: slide1;
     animation-duration: 10s;
-    animation-delay: 2s;
+    animation-delay: 0;
     animation-iteration-count: infinite;
     -moz-animation-name: slide1;
     -moz-animation-duration: 10s;
