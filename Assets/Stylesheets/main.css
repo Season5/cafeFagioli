@@ -113,6 +113,8 @@ nav{
     background-image: url(../Pictures/wood_texture3793.jpg);
     animation: nav;
     animation-duration: 1s;
+    -moz-animation: nav;
+    -moz-animation-duration: 1s;
 }
 @keyframes nav{
     0%{
@@ -203,7 +205,7 @@ nav{
     
 }
 .slide{
-    height: 400px;
+    height: 80%;
     width: auto;
     margin: 0 auto;
     background-image: url(../Pictures/a-cup-of-coffee.jpg);
@@ -213,6 +215,10 @@ nav{
     animation-duration: 10s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
+    -moz-animation-name: slide1;
+    -moz-animation-duration: 10s;
+    -moz-animation-delay: 2s;
+    -moz-animation-iteration-count: infinite;
 }
 <<<<<<< HEAD
 /* Menu */
@@ -314,6 +320,7 @@ footer{
     padding-bottom: 0;
     clear: both;
     background-image: url(../Pictures/1897822.jpg);
+    background-size: cover;
 }
 footer p{
     bottom: 0;
