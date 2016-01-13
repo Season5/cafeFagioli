@@ -246,7 +246,9 @@ nav{
 
 .title {
     -webkit-animation: pulsate 3s ease-out;
-    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: pulsate 3s ease-out;
+    -moz-animation-iteration-count: infinite;
     opacity: 0.5;
     text-shadow: 0 0 8px white;
 }
@@ -262,6 +264,25 @@ nav{
         opacity: 1.0;
     }
     100% { 
+<<<<<<< HEAD
+        opacity: 0.5;
+=======
+        opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+    }
+}
+@-moz-keyframes pulsate {
+    0% {
+<<<<<<< HEAD
+        opacity: 0.5;
+=======
+        opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
 <<<<<<< HEAD
         opacity: 0.5;
 =======
