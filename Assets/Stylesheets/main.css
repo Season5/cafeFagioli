@@ -110,7 +110,7 @@ header h1{
     height: 90px;
 }
 
-#logo{
+.head{
     font-family: 'Questrial', sans-serif;
     }
 
@@ -366,7 +366,7 @@ Menu page
 .return img{
     width:5%;
 }
-#logo{
+.head{
     width: auto;
     height: 90px;
     margin-left: 35%;
