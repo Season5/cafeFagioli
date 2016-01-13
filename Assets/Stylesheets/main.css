@@ -71,7 +71,11 @@ table {
 
 /* Body */
 body{
+<<<<<<< HEAD
+    background-color: beige;
+=======
     background-color: #f5f5dc;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     
 }
 h1{
@@ -210,7 +214,11 @@ nav{
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+<<<<<<< HEAD
+/* Menu */
+=======
 /* Menu page */
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 .left{
     width: 10%;
 }
@@ -237,13 +245,21 @@ nav{
 }
 @-webkit-keyframes pulsate {
     0% { 
+<<<<<<< HEAD
+        opacity: 0.5;
+=======
         opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
     50% { 
         opacity: 1.0;
     }
     100% { 
+<<<<<<< HEAD
+        opacity: 0.5;
+=======
         opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
 }
 .centre .drinks{
@@ -253,9 +269,14 @@ nav{
     padding: 10%;
 }
 .centre li:hover{
+<<<<<<< HEAD
+    color: white;    
+    font-size: 25px;
+=======
     color: firebrick;    
     font-size: 40px;
     padding: 5px;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 }
 .centre li{
     font-family: 'Josefin Sans', sans-serif;
@@ -268,11 +289,17 @@ nav{
     margin: 0 auto;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
 
 .right{
     width: 10%;
 }
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 
+.right{
+    width: 10%;
+}
 /* Footer */
 footer{
     bottom: 0px;
@@ -286,4 +313,15 @@ footer p{
     margin-bottom: 0;
     padding-bottom: 0;
     color: white;
+}
+
+/*ABOUT*/
+
+
+.about {
+    padding: 5%;
+}
+
+.coffeMug {
+    
 }
