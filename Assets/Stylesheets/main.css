@@ -204,7 +204,7 @@ nav{
 }
 .slide{
     height: 400px;
-    width: 70%;
+    width: auto;
     margin: 0 auto;
     background-image: url(../Pictures/a-cup-of-coffee.jpg);
     background-position: center;
@@ -270,13 +270,9 @@ nav{
     padding: 10%;
 }
 .centre li:hover{
-<<<<<<< HEAD
-    color: white;    
-    font-size: 25px;
-    color: firebrick;    
+    color: firebrick;
     font-size: 40px;
     padding: 5px;
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 }
 .centre li{
     font-family: 'Josefin Sans', sans-serif;
