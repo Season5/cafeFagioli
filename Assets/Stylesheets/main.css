@@ -348,10 +348,31 @@ Menu page
 }
 .title{
   color: #000;
-  font-family: 'Exo', sans-serif;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+#arrow{
+    -webkit-animation: bounce 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: bounce 3s ease-out;
+    -moz-animation-iteration-count: infinite;
+    padding: 5px;
+    border-radius: 50%;
+}
+@keyframes bounce{
+    0%{
+        border: 4px solid black;
+    }
+    25%{
+        border: 2px solid black;
+    }
+    50%{
+        border: 0;
+    }
+    75%{
+        border: 2px solid black;
+    }
+    100%{
+        border: 4px solid black;
+    }
 }
 
 
