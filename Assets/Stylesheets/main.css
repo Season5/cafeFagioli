@@ -237,7 +237,10 @@ Home Page
 /* Main */
 
 .main{
-    height: 90%;
+    height: 200%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
 }
 @keyframes slide1{
     0% {background-image: url(../Pictures/coffee-08.jpg);}
@@ -248,7 +251,7 @@ Home Page
 
 }
 .slide{
-    height: 40%;
+    height: 400px;
     width: auto;
     margin: 0 auto;
     background-image: url(../Pictures/a-cup-of-coffee.jpg);
@@ -269,16 +272,57 @@ Home Page
     width: 20%;
     padding: 0;
     margin-left: 3.5%;
-}
-.values section img{
     height: 90%;
-    width: 100%;
+}
+
+.values section img{
+    height: auto;
+    width: 90%;
     border-radius: 5px;
+}
+.values2{
+    height: 90%;
+
+}
+.values section p{
+    height: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.values section a{
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .values{
     margin-top: 1.5%;
-    margin-left: 3.5%;
-    height: 40%;
+    margin-left: 3.4%;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.values2 a{
+    height: 100%;
+}
+.valuesitem{
+    position: relative;
+}
+.textbox:hover{
+    opacity: 1;
+    font-size: 20px;
+    color: firebrick;
+}
+.text{
+    padding-top: 15%;
+}
+.textbox{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(255,204,138,.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 
 /*
