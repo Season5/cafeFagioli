@@ -110,7 +110,7 @@ header h1{
     height: 90px;
 }
 
-#logo{
+.head{
     font-family: 'Questrial', sans-serif;
     }
 
@@ -291,7 +291,7 @@ Menu page
     background-image: url(../Pictures/paper10.jpg);
 }
 #menubody{
-    background-image: url(../Pictures/1897822.jpg)
+    background-image: url(../Pictures/1897822.jpg);
 }
 .left{
     width: 10%;
@@ -366,10 +366,10 @@ Menu page
 .return img{
     width:5%;
 }
-#logo{
-    width: 100px;
-    height: auto;
-    margin-left: 45%;
+.head{
+    width: auto;
+    height: 90px;
+    margin-left: 35%;
 }
 .head{
     display: inline-block;
