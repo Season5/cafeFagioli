@@ -205,7 +205,9 @@ nav{
 .item:active{
     color: red;
 }
+#menubody{
 
+}
 
 /*
 ================================
@@ -275,7 +277,12 @@ Menu page
 =============================
 */
 
-
+.centre{
+    background-image: url(../Pictures/paper10.jpg);
+}
+#menubody{
+    background-image: url(../Pictures/1897822.jpg)
+}
 .left{
     width: 10%;
 }
@@ -303,41 +310,26 @@ Menu page
     text-shadow: 0 0 8px white;
 }
 @-webkit-keyframes pulsate {
-    0% { 
-<<<<<<< HEAD
-        opacity: 0.5;
-=======
+    0% {
         opacity: 0.2;
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
     50% { 
         opacity: 1.0;
     }
-    100% { 
-<<<<<<< HEAD
-        opacity: 0.5;
-=======
+    100% {
         opacity: 0.2;
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+
     }
 }
 @-moz-keyframes pulsate {
     0% {
-<<<<<<< HEAD
-        opacity: 0.5;
-=======
         opacity: 0.2;
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
     50% {
         opacity: 1.0;
     }
     100% {
-<<<<<<< HEAD
-        opacity: 0.5;
-=======
         opacity: 0.2;
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
 }
 .centre .drinks{
@@ -358,20 +350,8 @@ Menu page
 
 .centre{
     width: 80%;
-    background-image: url(../Pictures/paper10.jpg);
     margin: 0 auto;
     text-align: center;
-}
-<<<<<<< HEAD
-=======
-
-.right{
-    width: 10%;
-}
->>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
-
-.right{
-    width: 10%;
 }
 .return img{
     width:5%;
@@ -384,10 +364,7 @@ Menu page
 .head{
     display: inline-block;
 }
-<<<<<<< HEAD
-#menubody{
-    background-image: url(../Pictures/1897822.jpg)
-}
+
 /* Footer */
 footer{
     bottom: 0px;
@@ -406,8 +383,6 @@ footer p{
     font-size: 25px;
     text-align: center;
 }
-=======
->>>>>>> dae68331743b1084bcac4985d87fc6f368303e7b
 
 
 /*
