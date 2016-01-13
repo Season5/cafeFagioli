@@ -207,7 +207,7 @@ Footer
 */
 
 footer{
-
+    height: 15%;
     bottom: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -237,7 +237,10 @@ Home Page
 /* Main */
 
 .main{
-    height: 465px;
+    height: 200%;
+    width: 100%;
+    display: block;
+    overflow: hidden;
 }
 @keyframes slide1{
     0% {background-image: url(../Pictures/coffee-08.jpg);}
@@ -248,15 +251,15 @@ Home Page
 
 }
 .slide{
-    height: 80%;
+    height: 400px;
     width: auto;
     margin: 0 auto;
-    background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    background-image: url(../Pictures/coffee-08.jpg);
     background-position: center;
     background-size:auto;
     animation-name: slide1;
     animation-duration: 10s;
-    animation-delay: 2s;
+    animation-delay: 0;
     animation-iteration-count: infinite;
     -moz-animation-name: slide1;
     -moz-animation-duration: 10s;
@@ -269,16 +272,57 @@ Home Page
     width: 20%;
     padding: 0;
     margin-left: 3.5%;
-}
-.values section img{
     height: 90%;
-    width: 100%;
+}
+
+.values section img{
+    height: 80%;
+    width: 90%;
     border-radius: 5px;
+}
+.values2{
+    height: 90%;
+
+}
+.values section p{
+    height: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.values section a{
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 .values{
     margin-top: 1.5%;
-    margin-left: 3.5%;
-    height: 250px;
+    margin-left: 3.4%;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.values2 a{
+    height: 100%;
+}
+.valuesitem{
+    position: relative;
+}
+.textbox:hover{
+    opacity: 1;
+    font-size: 20px;
+    color: firebrick;
+}
+.text{
+    padding-top: 15%;
+}
+.textbox{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(255,204,138,.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 
 /*
@@ -304,10 +348,31 @@ Menu page
 }
 .title{
   color: #000;
-  font-family: 'Exo', sans-serif;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+#arrow{
+    -webkit-animation: bounce 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: bounce 3s ease-out;
+    -moz-animation-iteration-count: infinite;
+    padding: 5px;
+    border-radius: 50%;
+}
+@keyframes bounce{
+    0%{
+        border: 4px solid black;
+    }
+    25%{
+        border: 2px solid black;
+    }
+    50%{
+        border: 0;
+    }
+    75%{
+        border: 2px solid black;
+    }
+    100%{
+        border: 4px solid black;
+    }
 }
 
 
