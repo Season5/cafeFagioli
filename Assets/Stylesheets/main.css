@@ -214,6 +214,7 @@ Footer
 */
 
 footer{
+
     bottom: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -269,6 +270,25 @@ Home Page
     -moz-animation-delay: 2s;
     -moz-animation-iteration-count: infinite;
 }
+.values section{
+
+    float: left;
+    width: 15%;
+    padding: 0;
+    margin-left: 3.5%;
+}
+.values1{
+
+}
+.values section img{
+    height: 90%;
+    width: 100%;
+}
+.values{
+    margin: 0 auto;
+    height: 250px;
+}
+
 /*
 =============================
 Menu page
