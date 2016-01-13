@@ -71,7 +71,7 @@ table {
 
 /* Body */
 body{
-    
+    background-color: beige;
     
 }
 h1{
@@ -202,11 +202,40 @@ nav{
     width: 10%;
 }
 .title{
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+    text-shadow: 0 0 4px brown;
 }
-.title:hover{
-    
+.title{
+  color: #000;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.title:hover {
+  color: brown;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+.title {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+    text-shadow: 0 0 8px white;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
 }
 .centre .drinks{
     padding: 10%;
@@ -223,6 +252,7 @@ nav{
     width: 80%;
     background-image: url(../Pictures/paper10.jpg);
     margin: 0 auto;
+    text-align: center;
 }
 
 .right{
