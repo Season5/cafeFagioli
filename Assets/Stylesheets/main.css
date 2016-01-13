@@ -386,7 +386,7 @@ Menu page
 }
 <<<<<<< HEAD
 #menubody{
-    background-image: url(../Pictures/1897822.jpg)
+    background-image: url(../Pictures/1897822.jpg);
 }
 /* Footer */
 footer{
@@ -418,7 +418,7 @@ ABOUT PAGE
 
 
 .about {
-    padding: 5%;
+    padding: 15%;
 }
 
 .coffeMug {
