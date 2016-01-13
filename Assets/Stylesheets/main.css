@@ -71,17 +71,24 @@ table {
 
 /* Body */
 body{
+<<<<<<< HEAD
     background-color: beige;
+=======
+    background-color: #f5f5dc;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     
 }
 h1{
     font-family: 'Exo', sans-serif;
+    font-size: 80px;
 }
 h2{
     font-family: 'Rancho', cursive;
+    font-size: 48px;
 }
 h3{
     font-family: 'Coming Soon', cursive;
+    font-size: 30px;
 }
 p{
     font-family: 'Josefin Sans', sans-serif;
@@ -207,29 +214,29 @@ nav{
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+<<<<<<< HEAD
 /* Menu */
+=======
+/* Menu page */
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 .left{
     width: 10%;
 }
 .title{
-    font-size: 60px;
     text-align: center;
     text-shadow: 0 0 4px brown;
+    font-family: 'Exo', sans-serif;
+    font-size: 80px;
 }
 .title{
   color: #000;
-  font-family: Monoton;
+  font-family: 'Exo', sans-serif;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-.title:hover {
-  color: brown;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
+
 .title {
     -webkit-animation: pulsate 3s ease-out;
     -webkit-animation-iteration-count: infinite; 
@@ -238,13 +245,21 @@ nav{
 }
 @-webkit-keyframes pulsate {
     0% { 
+<<<<<<< HEAD
         opacity: 0.5;
+=======
+        opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
     50% { 
         opacity: 1.0;
     }
     100% { 
+<<<<<<< HEAD
         opacity: 0.5;
+=======
+        opacity: 0.2;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
     }
 }
 .centre .drinks{
@@ -254,8 +269,18 @@ nav{
     padding: 10%;
 }
 .centre li:hover{
+<<<<<<< HEAD
     color: white;    
     font-size: 25px;
+=======
+    color: firebrick;
+    font-size: 40px;
+    padding: 5px;
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
+}
+.centre li{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
 }
 
 .centre{
@@ -264,6 +289,13 @@ nav{
     margin: 0 auto;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+.right{
+    width: 10%;
+}
+>>>>>>> 855d97c37a28a51bc3c6efaaf4a4a1f7000c3eac
 
 .right{
     width: 10%;
@@ -274,11 +306,22 @@ footer{
     margin-bottom: 0;
     padding-bottom: 0;
     clear: both;
-    background-image: url(../Pictures/wood_texture3793.jpg);
+    background-image: url(../Pictures/1897822.jpg);
 }
 footer p{
     bottom: 0;
     margin-bottom: 0;
     padding-bottom: 0;
+    color: white;
+}
+
+/*ABOUT*/
+
+
+.about {
+    padding: 5%;
+}
+
+.coffeMug {
     
 }
