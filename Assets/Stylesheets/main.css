@@ -71,7 +71,7 @@ table {
 
 /* Body */
 body{
-    background-color: beige;
+    background-color: #f5f5dc;
     
 }
 h1{
@@ -197,7 +197,7 @@ nav{
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
-/* Menu */
+/* Menu page */
 .left{
     width: 10%;
 }
@@ -228,13 +228,13 @@ nav{
 }
 @-webkit-keyframes pulsate {
     0% { 
-        opacity: 0.5;
+        opacity: 0.2;
     }
     50% { 
         opacity: 1.0;
     }
     100% { 
-        opacity: 0.5;
+        opacity: 0.2;
     }
 }
 .centre .drinks{
@@ -244,8 +244,9 @@ nav{
     padding: 10%;
 }
 .centre li:hover{
-    color: white;    
+    color: firebrick;    
     font-size: 25px;
+    padding: 5px;
 }
 
 .centre{
@@ -258,6 +259,7 @@ nav{
 .right{
     width: 10%;
 }
+
 /* Footer */
 footer{
     bottom: 0px;
