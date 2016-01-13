@@ -207,7 +207,7 @@ Footer
 */
 
 footer{
-
+    height: 15%;
     bottom: 0px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -237,7 +237,7 @@ Home Page
 /* Main */
 
 .main{
-    height: 465px;
+    height: 90%;
 }
 @keyframes slide1{
     0% {background-image: url(../Pictures/coffee-08.jpg);}
@@ -248,7 +248,7 @@ Home Page
 
 }
 .slide{
-    height: 80%;
+    height: 40%;
     width: auto;
     margin: 0 auto;
     background-image: url(../Pictures/a-cup-of-coffee.jpg);
@@ -278,7 +278,7 @@ Home Page
 .values{
     margin-top: 1.5%;
     margin-left: 3.5%;
-    height: 250px;
+    height: 40%;
 }
 
 /*
