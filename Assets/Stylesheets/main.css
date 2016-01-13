@@ -366,9 +366,9 @@ Menu page
     width:5%;
 }
 #logo{
-    width: 100px;
-    height: auto;
-    margin-left: 45%;
+    width: auto;
+    height: 90px;
+    margin-left: 35%;
 }
 .head{
     display: inline-block;
