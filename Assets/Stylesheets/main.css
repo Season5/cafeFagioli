@@ -487,7 +487,9 @@ ABOUT PAGE
   }    
     .ball:nth-child(1) {
       background: black;
-        opacity: 0.1;
+        opacity: 0.4;
+        filter: blur(12px);
+        transition: 10px,5px;
       animation: right 1s infinite ease-in-out;    
       -webkit-animation: right 1s infinite ease-in-out;
       -moz-animation: right 1s infinite ease-in-out;
@@ -495,7 +497,8 @@ ABOUT PAGE
 
     .ball:nth-child(2) {
        background: black;
-        opacity: 0.15;
+        opacity: 0.4;
+        filter: blur(15px);
       animation: left 1.05s infinite ease-in-out;
       -webkit-animation: left 1.05s infinite ease-in-out;
       -moz-animation: left 1.05s infinite ease-in-out;
@@ -503,7 +506,8 @@ ABOUT PAGE
 
     .ball:nth-child(3) {
        background: black;
-        opacity: 0.2;
+        opacity: 0.4;
+        filter: blur(15px);
       animation: right 1.1s infinite ease-in-out;
       -webkit-animation: right 1.1s infinite ease-in-out;
       -moz-animation: right 1.1s infinite ease-in-out;
@@ -512,6 +516,7 @@ ABOUT PAGE
     .ball:nth-child(4) {
        background: black;
         opacity: 0.25;
+        filter: blur(15px);
       -webkit-animation: left 1.15s infinite ease-in-out;
       -moz-animation: left 1.15s infinite ease-in-out;
       animation: left 1.15s infinite ease-in-out;
@@ -520,6 +525,7 @@ ABOUT PAGE
     .ball:nth-child(5) {
        background: black;
         opacity: 0.3;
+        filter: blur(5px);
       -webkit-animation: right 1.1s infinite ease-in-out;
       -moz-animation: right 1.1s infinite ease-in-out;
       animation: right 1.1s infinite ease-in-out;
@@ -528,6 +534,7 @@ ABOUT PAGE
     .ball:nth-child(6) {
        background: black;
         opacity: 0.35;
+        filter: blur(4px);
       animation: left 1.05s infinite ease-in-out;
       -webkit-animation: left 1.05s infinite ease-in-out;
       -moz-animation: left 1.05s infinite ease-in-out;
@@ -535,7 +542,8 @@ ABOUT PAGE
 
     .ball:nth-child(7) {
        background: black;
-        opacity: 0.4;  
+        opacity: 0.4; 
+        filter: blur(4px);
       -webkit-animation: right 1s infinite ease-in-out;
       -moz-animation: right 1s infinite ease-in-out;
       animation: right 1s infinite ease-in-out;
