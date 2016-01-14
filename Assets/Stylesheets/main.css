@@ -121,6 +121,8 @@ nav{
     animation-duration: 1s;
     -moz-animation: nav;
     -moz-animation-duration: 1s;
+    -webkit-animation: nav;
+    -webkit-animation-duration: 1s;
 }
 @keyframes nav{
     0%{
