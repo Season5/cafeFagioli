@@ -243,12 +243,30 @@ Home Page
     overflow: hidden;
 }
 @keyframes slide1{
-    0% {background-image: url(../Pictures/coffee-08.jpg);}
-    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);}
-    50% {background-image: url(../Pictures/coffee-beans.jpg);}
-    75% {background-image: url(../Pictures/coffee-beans.jpg);}
-    100% {background-image: url(../Pictures/DSC02673.jpg);}
-
+    0% {background-image: url(../Pictures/coffee-08.jpg);
+    }
+    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    }
+    50% {background-image: url(../Pictures/coffee-beans.jpg);
+    }
+    75% {background-image: url(../Pictures/coffee-beans.jpg);
+    }
+    100% {
+        background-image: url(../Pictures/DSC02673.jpg);
+    }
+}
+@-moz-keyframes slide2{
+    0% {background-image: url(../Pictures/coffee-08.jpg);
+    }
+    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);
+    }
+    50% {background-image: url(../Pictures/coffee-beans.jpg);
+    }
+    75% {background-image: url(../Pictures/coffee-beans.jpg);
+    }
+    100% {
+        background-image: url(../Pictures/DSC02673.jpg);
+    }
 }
 .slide{
     height: 400px;
@@ -256,15 +274,19 @@ Home Page
     margin: 0 auto;
     background-image: url(../Pictures/coffee-08.jpg);
     background-position: center;
+    background-repeat:no-repeat;
     background-size:auto;
     animation-name: slide1;
     animation-duration: 10s;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
-    -moz-animation-name: slide1;
+    animation-delay: 2s;
+    -moz-animation-name: slide2;
     -moz-animation-duration: 10s;
     -moz-animation-delay: 2s;
     -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: slide1;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
 }
 .values section{
 
@@ -308,7 +330,7 @@ Home Page
 }
 .textbox:hover{
     opacity: 1;
-    font-size: 20px;
+    font-size: 15px;
     color: firebrick;
 }
 .text{
