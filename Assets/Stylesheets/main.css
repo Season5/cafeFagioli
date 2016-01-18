@@ -210,10 +210,10 @@ Footer
 */
 
 footer{
-    height: 15%;
-    bottom: 0px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    height:50%;
+    bottom:30%;
+    margin-bottom: 30%;
+    padding-bottom: 30%;
     clear: both;
     background-image: url(../Pictures/1897822.jpg);
     background-size: cover;
@@ -469,10 +469,11 @@ Menu page
 footer{
     bottom: 0px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     clear: both;
     background-image: url(../Pictures/wood_texture3793.jpg);
     height: 30px;
+    padding-top: 30px;
 
 }
 footer p{
