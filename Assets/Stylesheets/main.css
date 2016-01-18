@@ -247,26 +247,24 @@ Home Page
 }
 @keyframes slide1{
     0% {background-image: url(../Pictures/coffee-08.jpg);
+        background-size: 100%;
     }
-    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);
-    }
+
     50% {background-image: url(../Pictures/coffee-beans.jpg);
     }
-    75% {background-image: url(../Pictures/coffee-beans.jpg);
-    }
+
     100% {
         background-image: url(../Pictures/DSC02673.jpg);
     }
 }
 @-moz-keyframes slide2{
     0% {background-image: url(../Pictures/coffee-08.jpg);
+        background-size: 100%;
     }
-    25% {background-image: url(../Pictures/a-cup-of-coffee.jpg);
-    }
+
     50% {background-image: url(../Pictures/coffee-beans.jpg);
     }
-    75% {background-image: url(../Pictures/coffee-beans.jpg);
-    }
+
     100% {
         background-image: url(../Pictures/DSC02673.jpg);
     }
@@ -301,9 +299,11 @@ Home Page
 }
 
 .values section img{
-    height: 80%;
+    height: 250px;
     width: 90%;
     border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 .values2{
     height: 90%;
