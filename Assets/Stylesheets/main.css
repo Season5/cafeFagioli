@@ -460,49 +460,29 @@ Menu page
     width: auto;
     height: 90px;
     margin-left: 35%;
+    padding: 40px;
 }
 .head{
     display: inline-block;
 }
 
-/* Footer */
-footer{
-    bottom: 0px;
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    clear: both;
-    background-image: url(../Pictures/wood_texture3793.jpg);
-    height: 30px;
-    padding-top: 30px;
 
-}
-footer p{
-    bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color: black;
-    font-size: 25px;
-    text-align: center;
-}
-
-
-/*
-==================================
-ABOUT PAGE
-==================================
-*/
-
+/*About*/
 
 .about {
     padding: 5%;
+    font-size: 45px;
 }
 
 
 .container {
   width: 200px;
-  height: 100px;
+  height: px;
   padding-top: 100px;
-  margin: 0 auto;
+  margin: 0 auto 33%;
+    margin-bottom: 33%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .ball {
@@ -592,5 +572,27 @@ ABOUT PAGE
 .coffee {
     width: 80px;
     height:auto;
-    margin-left: 90%;
+    margin-left: 39%;
 }
+
+/* Footer */
+footer{
+    bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    clear: both;
+    background-image: url(../Pictures/wood_texture3793.jpg);
+    height: 30px;
+    padding-top: 30px;
+
+}
+footer p{
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
